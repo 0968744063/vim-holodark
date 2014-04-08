@@ -13,7 +13,7 @@ let g:colors_name = "holodark"
 " }}}
 
 " VIM stuff
-hi Normal                       guifg=#dddddd   guibg=#222222
+hi Normal                       guifg=#dddddd   guibg=#111111
 hi Cursor                       guifg=#000000   guibg=#33B5E5
 hi CursorColumn                                 guibg=#666666
 hi CursorLineNr gui=bold        guifg=#ffff00
@@ -46,7 +46,7 @@ hi ErrorMsg                     guifg=#dddd88   guibg=#aa1100
 hi Search                       guifg=#000000   guibg=#ff00ff
 hi IncSearch    gui=reverse
 
-hi NonText      gui=bold        guifg=#8888ff   guibg=#222222
+hi NonText      gui=bold        guifg=#660000   guibg=#040404
 hi SpecialKey                   guifg=#00ffff
 hi MatchParen                                   guibg=#aa6600
 
@@ -65,11 +65,10 @@ hi SpellLocal   gui=undercurl                                   guisp=#00ffff
 hi SpellRare    gui=undercurl                                   guisp=#ff00ff
 
 " Diff
-hi DiffAdd                                      guibg=#224428
-hi DiffChange                                   guibg=#443322
+hi DiffAdd                                      guibg=#112211
+hi DiffChange                                   guibg=#112233
 hi DiffDelete                   guifg=#330000   guibg=#330000
-hi DiffText                                     guibg=#554422
-
+hi DiffText                                     guibg=#113344
 
 
 " Language stuff
