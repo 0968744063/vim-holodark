@@ -125,12 +125,12 @@ hi link Delimiter       Special
 
 hi link Keyword         Statement
 
-fun s:FocusLost()
+fun! s:FocusLost()
   hi StatusLine gui=none guifg=#000000 guibg=#858585
   hi TabLineSel gui=bold guifg=#000000 guibg=#888888
 endfun
 
-fun s:FocusGained()
+fun! s:FocusGained()
   hi StatusLine gui=none guifg=#000000 guibg=#33B5E5
   hi TabLineSel gui=bold guifg=#000000 guibg=#0099cc
 endfun
