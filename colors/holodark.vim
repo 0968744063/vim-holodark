@@ -72,7 +72,7 @@ hi DiffText     gui=undercurl                   guibg=#282008   guisp=#ff8800
 
 
 " Language stuff
-hi PreProc                      guifg=#ff4444
+hi PreProc                      guifg=#aa66cc
 hi link Include         PreProc
 hi link Macro           PreProc
 hi link PreCondit       PreProc
@@ -82,12 +82,12 @@ hi Function     gui=bold        guifg=#0077bb
 hi Identifier   gui=bold        guifg=#4466dd
 hi Label        gui=bold        guifg=#008800
 
-hi Type         gui=bold        guifg=#55aa55
+hi Type         gui=bold        guifg=#669900
 hi link StorageClass    Type
 hi link Typedef         Type
 hi link Structure       Type
 
-hi Constant                     guifg=#ff6666
+hi Constant                     guifg=#ff4444
 hi link Float      Number
 hi link Boolean    Number
 hi link confString String
@@ -106,9 +106,9 @@ hi Operator     gui=bold        guifg=#2222dd
 
 hi Statement    gui=bold        guifg=#cccccc
 hi Conditional  gui=bold
-hi Comment      gui=bold        guifg=#225588
 
 " Comments
+hi Comment      gui=bold        guifg=#225588
 hi SpecialComment gui=bold      guifg=#2222bf
 hi CommentTitle   gui=bold      guifg=#2222bf
 hi Todo                         guifg=#222222   guibg=#cccc44
