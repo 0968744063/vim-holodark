@@ -66,9 +66,9 @@ hi SpellRare    gui=undercurl                                   guisp=#ff00ff
 
 " Diff
 hi DiffAdd                                      guibg=#112211
-hi DiffChange                                   guibg=#112233
-hi DiffDelete                   guifg=#330000   guibg=#330000
-hi DiffText                                     guibg=#113344
+hi DiffChange                                   guibg=#282008
+hi DiffDelete   gui=bold        guifg=#330000   guibg=#330000
+hi DiffText     gui=undercurl                   guibg=#282008   guisp=#ff8800
 
 
 " Language stuff
