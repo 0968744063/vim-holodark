@@ -43,11 +43,11 @@ hi Question     gui=bold        guifg=#00ff00
 hi WarningMsg                   guifg=#ff0000
 hi ErrorMsg                     guifg=#dddd88   guibg=#aa1100
 
-hi Search                       guifg=#000000   guibg=#ff00ff
+hi Search                       guifg=#000000   guibg=#006688
 hi IncSearch    gui=reverse
 
 hi NonText      gui=bold        guifg=#660000   guibg=#040404
-hi SpecialKey                   guifg=#00ffff
+hi SpecialKey   gui=NONE        guifg=#444422
 hi MatchParen                                   guibg=#aa6600
 
 hi ColorColumn                                  guibg=#8b0000
