@@ -111,7 +111,7 @@ hi Conditional  gui=bold
 hi Comment      gui=bold        guifg=#225588
 hi SpecialComment gui=bold      guifg=#2222bf
 hi CommentTitle   gui=bold      guifg=#2222bf
-hi Todo                         guifg=#222222   guibg=#cccc44
+hi Todo         gui=reverse     guifg=#ffbb33   guibg=#222222
 hi Special                      guifg=#ff8800   guibg=#222222
 hi Error        gui=undercurl                                   guisp=#aa1100
 
