@@ -15,7 +15,7 @@ let g:colors_name = "holodark"
 " VIM stuff
 hi Normal                       guifg=#dddddd   guibg=#111111
 hi Cursor                       guifg=#000000   guibg=#33B5E5
-hi CursorColumn                                 guibg=#666666
+hi CursorColumn                                 guibg=#101818
 hi CursorLineNr gui=bold        guifg=#ffff00
 hi CursorLine                                   guibg=#666666
 
@@ -50,7 +50,7 @@ hi NonText      gui=bold        guifg=#660000   guibg=#040404
 hi SpecialKey   gui=NONE        guifg=#444422
 hi MatchParen                                   guibg=#aa6600
 
-hi ColorColumn                                  guibg=#8b0000
+hi ColorColumn                                  guibg=#181818
 hi Conceal                      guifg=#cccccc   guibg=#a9a9a9
 hi FoldColumn                   guifg=#000088   guibg=#888888
 hi Folded                       guifg=#bbbb44   guibg=#5a5a5a
