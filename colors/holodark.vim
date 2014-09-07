@@ -65,10 +65,10 @@ hi SpellLocal   gui=undercurl                                   guisp=#00ffff
 hi SpellRare    gui=undercurl                                   guisp=#ff00ff
 
 " Diff
-hi DiffAdd                                      guibg=#112211
-hi DiffChange                                   guibg=#282008
-hi DiffDelete   gui=bold        guifg=#330000   guibg=#330000
-hi DiffText     gui=undercurl                   guibg=#282008   guisp=#ff8800
+hi DiffAdd                                      guibg=#113811
+hi DiffChange                                   guibg=#554411
+hi DiffDelete   gui=bold        guifg=#661111   guibg=#661111
+hi DiffText                                     guibg=#997722
 
 
 " Language stuff
