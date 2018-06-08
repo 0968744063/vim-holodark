@@ -16,15 +16,15 @@ let g:colors_name = "holodark"
 hi Normal                       guifg=#dddddd   guibg=#111111
 hi Cursor                       guifg=#000000   guibg=#33B5E5
 hi CursorColumn                                 guibg=#101818
-hi CursorLineNr gui=bold        guifg=#ffff00
-hi CursorLine                                   guibg=#666666
+hi CursorLineNr gui=bold        guifg=#aaaaaa   guibg=#3c3f41
+hi CursorLine                                   guibg=#202628
 
-hi LineNr                       guifg=#111111   guibg=#444444
+hi LineNr                       guifg=#606366   guibg=#313335
 hi VertSplit                    guifg=#000000   guibg=#626262
 hi StatusLineNC gui=NONE        guifg=#000000   guibg=#626262
 " StatusLine: see FocusGained/FocusLost functions
 
-hi TabLineFill  gui=underline   guifg=#111111   guibg=#181818
+hi TabLineFill  gui=underline   guifg=#111111   guibg=#383734
 hi TabLine      gui=NONE        guifg=#111111   guibg=#626262
 " TabLineSel: see FocusGained/FocusLost functions
 
@@ -43,7 +43,7 @@ hi Question     gui=bold        guifg=#00ff00
 hi WarningMsg                   guifg=#ff0000
 hi ErrorMsg                     guifg=#dddd88   guibg=#aa1100
 
-hi Search                       guifg=#000000   guibg=#006688
+hi Search                       guifg=#000000   guibg=#ffbb33
 hi IncSearch    gui=reverse
 
 hi NonText      gui=bold        guifg=#660000   guibg=#040404
