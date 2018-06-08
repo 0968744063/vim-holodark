@@ -102,9 +102,9 @@ hi nasmStorage  gui=bold        guifg=#880000
 " Keywords
 hi Repeat       gui=bold
 hi Exception    gui=bold
-hi Operator     gui=bold        guifg=#2222dd
+hi Operator     gui=bold        guifg=#33B5E5
 
-hi Statement    gui=bold        guifg=#cccccc
+hi Statement    gui=bold        guifg=#ffbb33
 hi Conditional  gui=bold
 
 " Comments
