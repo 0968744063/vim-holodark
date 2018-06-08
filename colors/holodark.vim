@@ -59,7 +59,7 @@ hi lCursor                      guifg=#000000   guibg=#00ffff
 hi SignColumn                   guifg=#00ffff   guibg=#888888
 hi Title        gui=bold        guifg=#cccccc
 
-hi SpellBad     gui=undercurl                                   guisp=#ff0000
+hi SpellBad     term=underline ctermbg=NONE ctermfg=9 cterm=undercurl gui=undercurl guisp=#ff0000
 hi SpellCap     gui=undercurl                                   guisp=#0000ff
 hi SpellLocal   gui=undercurl                                   guisp=#00ffff
 hi SpellRare    gui=undercurl                                   guisp=#ff00ff
